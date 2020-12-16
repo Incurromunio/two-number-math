@@ -1,0 +1,42 @@
+
+
+html, body {
+    margin: 0;
+    height: 100%;
+    background: rgb(236,50,95);
+    background: -moz-linear-gradient(3deg, rgba(236,50,95,1) 0%, rgba(237,147,16,1) 100%);
+    background: -webkit-linear-gradient(3deg, rgba(236,50,95,1) 0%, rgba(237,147,16,1) 100%);
+    background: linear-gradient(3deg, rgba(236,50,95,1) 0%, rgba(237,147,16,1) 100%);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    align-content: center;
+    text-align: center;
+    justify-content: center;
+    font-family: fantasy;
+}
+
+.buffer {
+    height: 8rem;
+}
+
+h1 {
+    font-size: 3rem;
+}
+p {
+    font-size: 1.5rem;
+}
+
+
+button {
+    font-size: 20px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 12px;
+    transition-duration: all, 1s;
+    
+}
+
+button:hover {
+    cursor: pointer;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
